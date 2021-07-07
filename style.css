@@ -73,7 +73,7 @@ header {
   left: -100%;
   top: 5rem;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
   border-radius: 10px;
   transition: 0.3s;
   background-color: var(--white);
@@ -98,7 +98,7 @@ header {
 .btn {
   border-radius: 24px;
   border: none;
-  padding: 20px;
+  padding: 10px;
   background-color: var(--yelow);
   color: var(--white);
   font-family: var(--font-fraunces);
@@ -125,4 +125,40 @@ header {
 
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
+}
+
+/* large screens */
+@media only screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+  }
+  .hamburger {
+    display: none;
+  }
+  .nav__logo {
+    font-size: 0.8rem;
+    margin-top: 16px;
+  }
+  .nav__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 350px;
+    flex-direction: row;
+    top: 0;
+    background-color: transparent;
+    width: 50%;
+  }
+  .nav__link {
+    color: var(--white);
+    padding: 0;
+  }
+  .btn {
+    background-color: var(--white);
+    color: #000;
+    font-weight: lighter;
+  }
 }
