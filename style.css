@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* primary colors */
+  --soft-red: hsl(7, 99%, 70%);
+  --yelow: hsl(51, 100%, 49%);
+  --dark-desaturated-cyan: hsl(167, 40%, 24%);
+  --dark-blue: hsl(198, 62%, 26%);
+  --dark-moderate-cyan: hsl(168, 34%, 41%);
+
+  /* neutral colors */
+  --dark-desaturated-blue: hsl(212, 27%, 19%);
+  --very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --dark-grayish-blue: hsl(232, 10%, 55%);
+  --grayish-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+
+  /* font */
+  --body-font: 1.125rem;
+  --font-barlow: 'Barlow', sans-serif;
+  --font-fraunces: 'Fraunces', serif;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+  --font-black: 900;
+}
+
+body {
+  font-family: var(--font-barlow);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  text-align: center;
+  background-image: url('./images/desktop/image-header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  padding-top: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav__logo {
+  color: var(--white);
+  font-family: var(--font-barlow);
+  font-weight: var(--font-semi-bold);
+  font-size: 1.5rem;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: block;
+}
+
+.nav__menu {
+  position: fixed;
+  left: -100%;
+  top: 5rem;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+  background-color: var(--white);
+}
+
+.nav__menu.active {
+  left: 0;
+}
+
+.nav__item {
+  list-style: none;
+  margin: 2.5rem 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: var(--dark-desaturated-cyan);
+  padding: 14px 16px;
+  display: block;
+}
+
+.btn {
+  border-radius: 24px;
+  border: none;
+  padding: 20px;
+  background-color: var(--yelow);
+  color: var(--white);
+  font-family: var(--font-fraunces);
+  text-align: center;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--white);
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}

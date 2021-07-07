@@ -14,7 +14,6 @@
 
     <title>Frontend Mentor | Sunnyside agency landing page</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
         font-size: 11px;
@@ -24,30 +23,31 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img
-      src="images/desktop/image-header.jpg"
-      alt=" an orange"
-      class="title-img"
-    />
     <header>
-      <div class="logo">sunnyside</div>
       <nav class="navbar">
+        <a class="nav__logo">sunnyside</a>
         <ul class="nav__menu">
-          <li class="nav__links">
-            <a href="#about">About</a>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
           </li>
-          <li class="nav__links">
-            <a href="#services">Services</a>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
           </li>
-          <li class="nav__links">
-            <a href="#projects">Projects</a>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link">Projects</a>
           </li>
-          <li class="nav__links">
+          <li class="nav__item">
             <button class="btn">CONTACT</button>
           </li>
         </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
     </header>
 
@@ -243,5 +243,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="https://github.com/tracycod3r">Tracy</a>.
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
