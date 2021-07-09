@@ -295,4 +295,31 @@ header {
   .arrow-icon {
     height: 2.5rem;
   }
+  .about__info {
+    display: flex;
+  }
+  .egg-img,
+  .cup-img {
+    max-width: 50%;
+  }
+  .egg-img {
+    order: 2;
+  }
+  .egg-text,
+  .cup-text {
+    width: 40%;
+    text-align: left;
+  }
+  .egg-text h2,
+  .cup-text h2 {
+    font-size: 1.7rem;
+  }
+  .egg-text p,
+  .cup-text p {
+    font-size: 0.76rem;
+  }
+  .learn-yellow,
+  .learn-pink {
+    font-size: 0.75rem;
+  }
 }
