@@ -42,7 +42,7 @@ img {
 /* navigation */
 header {
   text-align: center;
-  background-image: url('./images/desktop/image-header.jpg');
+  background-image: url('./images/mobile/image-header.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -193,6 +193,13 @@ header {
 
 /* large screens */
 @media only screen and (min-width: 768px) {
+  header {
+    background-image: url('./images/desktop/image-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 0;
+  }
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -204,7 +211,6 @@ header {
   }
   .nav__logo {
     font-size: 0.8rem;
-    margin-top: 16px;
   }
   .nav__menu {
     display: flex;
@@ -212,9 +218,10 @@ header {
     align-items: center;
     left: 350px;
     flex-direction: row;
-    top: 0;
+    top: -9%;
     background-color: transparent;
     width: 50%;
+    font-size: 0.8rem;
   }
   .nav__link {
     color: var(--white);
@@ -224,5 +231,14 @@ header {
     background-color: var(--white);
     color: #000;
     font-weight: lighter;
+  }
+  .title-container {
+    top: 0.01px;
+  }
+  .title {
+    letter-spacing: 0.1rem;
+  }
+  .arrow-icon {
+    height: 2.5rem;
   }
 }
