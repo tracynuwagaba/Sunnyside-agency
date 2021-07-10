@@ -369,4 +369,24 @@ header {
   .learn-pink {
     font-size: 0.75rem;
   }
+  #services {
+    display: flex;
+  }
+  .cherries-img,
+  .orange-img {
+    height: auto;
+  }
+  .graphic-design-text,
+  .photography-text {
+    width: auto;
+  }
+  .graphic-design-text h3,
+  .photography-text h3 {
+    font-size: 1rem;
+  }
+  .graphic-design-text p,
+  .photography-text p {
+    font-size: 0.55rem;
+    line-height: 0.9rem;
+  }
 }
