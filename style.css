@@ -308,6 +308,42 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+.milk-bottles {
+  background-image: url('./images/mobile/image-gallery-milkbottles.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 50vw;
+  height: 40vh;
+}
+
+.orange-on-plate {
+  background-image: url('./images/mobile/image-gallery-orange.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 50vw;
+  height: 40vh;
+}
+
+.ice-cream {
+  background-image: url('./images/mobile/image-gallery-cone.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 50vw;
+  height: 40vh;
+}
+
+.sugar-cubes {
+  background-image: url('./images/mobile/image-gallery-sugar-cubes.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 50vw;
+  height: 40vh;
+}
 /* end of image gallery */
 
 /* iphone 5 */
@@ -474,5 +510,40 @@ header {
   }
   .job-title {
     font-size: 0.45rem;
+  }
+  .gallery-container {
+    display: flex;
+  }
+  .milk-bottles {
+    background-image: url('./images/desktop/image-gallery-milkbottles.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 25vw;
+    height: 60vh;
+  }
+  .orange-on-plate {
+    background-image: url('./images/desktop/image-gallery-orange.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 25vw;
+    height: 60vh;
+  }
+  .ice-cream {
+    background-image: url('./images/desktop/image-gallery-cone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 25vw;
+    height: 60vh;
+  }
+  .sugar-cubes {
+    background-image: url('./images/desktop/image-gallery-sugarcubes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 25vw;
+    height: 60vh;
   }
 }
