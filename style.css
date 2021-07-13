@@ -355,7 +355,7 @@ header {
 /* footer */
 footer {
   background-color: hsl(167, 44%, 70%);
-  height: 60vh;
+  height: 50vh;
   text-align: center;
   padding: 2rem 0;
 }
