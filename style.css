@@ -370,16 +370,25 @@ footer {
 }
 
 .footer__link:hover {
-  color: #fff;
+  color: var(--white);
   cursor: pointer;
 }
 
 .social-links {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 2.5rem;
-  padding: 0 2.5rem;
+  justify-content: space-between;
+  margin: 2.5rem auto 2.5rem auto;
+  max-width: 50%;
+}
+
+.attribution {
+  color: var(--dark-moderate-cyan);
+  font-size: 0.8rem;
+}
+
+.attribution__link {
+  text-decoration: none;
+  color: var(--dark-desaturated-cyan);
 }
 
 /* iphone 5 */
@@ -581,5 +590,23 @@ footer {
     background-position: center center;
     width: 25vw;
     height: 60vh;
+  }
+  footer {
+    padding: 2rem 0;
+    height: 70vh;
+  }
+  .footer__subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+  .footer__link {
+    font-size: 0.8rem;
+    margin: 0 0.9rem;
+  }
+  .social-links {
+    width: 15%;
+  }
+  .attribution {
+    font-size: 0.6rem;
   }
 }
