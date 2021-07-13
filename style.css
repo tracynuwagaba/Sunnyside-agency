@@ -172,7 +172,7 @@ header {
 
 .egg-text p,
 .cup-text p {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   margin: 7% 0;
   color: var(--dark-grayish-blue);
 }
