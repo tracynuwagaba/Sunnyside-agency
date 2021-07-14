@@ -441,7 +441,6 @@ footer {
     letter-spacing: 0.1rem;
   }
   .arrow-icon {
-    /* height: 2.5rem; */
     margin-top: 0.01rem;
   }
   .about__info {
@@ -461,15 +460,15 @@ footer {
   }
   .egg-text h2,
   .cup-text h2 {
-    font-size: 1.7rem;
+    font-size: 2.5rem;
   }
   .egg-text p,
   .cup-text p {
-    font-size: 0.76rem;
+    font-size: 1rem;
   }
   .learn-yellow,
   .learn-pink {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
   #services {
     display: flex;
