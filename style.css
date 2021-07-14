@@ -386,10 +386,6 @@ footer {
   max-width: 50%;
 }
 
-.social-links:hover {
-  color: var(--white);
-}
-
 .attribution {
   color: var(--dark-moderate-cyan);
   font-size: 0.8rem;
@@ -407,13 +403,12 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding-top: 0;
   }
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
   }
   .hamburger {
     display: none;
@@ -427,10 +422,10 @@ footer {
     align-items: center;
     left: 350px;
     flex-direction: row;
-    top: -9%;
+    /* top: -9%; */
     background-color: transparent;
     width: 50%;
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
   }
   .nav__link {
     color: var(--white);
