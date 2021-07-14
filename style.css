@@ -423,11 +423,11 @@ footer {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    left: 350px;
+    left: 400px;
     flex-direction: row;
     top: 0.5rem;
     background-color: transparent;
-    width: 80%;
+    width: 50%;
     /* font-size: 0.8rem; */
   }
   .nav__link {
