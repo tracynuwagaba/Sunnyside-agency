@@ -427,7 +427,7 @@ footer {
     flex-direction: row;
     top: 0.5rem;
     background-color: transparent;
-    width: 50%;
+    width: 80%;
     /* font-size: 0.8rem; */
   }
   .nav__link {
