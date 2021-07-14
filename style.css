@@ -554,7 +554,7 @@ footer {
   }
   footer {
     padding: 2rem 0;
-    height: 70vh;
+    /* height: 70vh; */
   }
   .footer__subtitle {
     font-size: 1.3rem;
