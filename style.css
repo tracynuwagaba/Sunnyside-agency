@@ -423,7 +423,7 @@ footer {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    left: 500px;
+    left: 600px;
     flex-direction: row;
     top: 0.5rem;
     background-color: transparent;
