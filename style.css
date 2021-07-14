@@ -409,7 +409,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     /* font-size: 0.8rem; */
-    padding: 0.05rem;
+    /* padding: 0.05rem; */
+    width: 100vw;
   }
   .hamburger {
     display: none;
