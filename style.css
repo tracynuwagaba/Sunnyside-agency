@@ -417,13 +417,13 @@ footer {
   }
   .nav__logo {
     font-size: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
   }
   .nav__menu {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    left: 400px;
+    left: 500px;
     flex-direction: row;
     top: 0.5rem;
     background-color: transparent;
