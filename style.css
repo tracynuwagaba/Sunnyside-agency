@@ -464,11 +464,11 @@ footer {
   }
   .egg-text p,
   .cup-text p {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
   }
   .learn-yellow,
   .learn-pink {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   #services {
     display: flex;
