@@ -483,11 +483,11 @@ footer {
   }
   .graphic-design-text h3,
   .photography-text h3 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .graphic-design-text p,
   .photography-text p {
-    font-size: 0.55rem;
+    font-size: 1.5rem;
     line-height: 0.9rem;
   }
   #testimonials {
