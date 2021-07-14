@@ -414,7 +414,7 @@ footer {
     display: none;
   }
   .nav__logo {
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
   }
   .nav__menu {
     display: flex;
@@ -422,7 +422,7 @@ footer {
     align-items: center;
     left: 350px;
     flex-direction: row;
-    /* top: -9%; */
+    top: 1rem;
     background-color: transparent;
     width: 50%;
     /* font-size: 0.8rem; */
